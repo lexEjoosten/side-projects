@@ -1,3 +1,5 @@
+#this program was created to investigate some of the properties of elliptic curves, it loops through some different values for constants in the eliptic curve function in order to understand its properties
+
 import math
 import matplotlib.pyplot as plt
 
