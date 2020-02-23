@@ -7,8 +7,6 @@ def c(n,s):
 			o=o+" "
 	return o
 
-def test():
-	print("yes")
 
 def letter_to_number(string):
 	n=""
