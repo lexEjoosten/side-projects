@@ -5,7 +5,7 @@ from math import *
 import cmath
 import Border
 import random
-import ctypes  # An included library with Python install.
+import ctypes 
 
 #system functions
 def force_function(R,dt_force_function,circle_size):
@@ -13,9 +13,7 @@ def force_function(R,dt_force_function,circle_size):
 	g=1*10**7
 	delta_velocity=(dt_force_function*g)/((max(R,circle_size)**2))
 	return delta_velocity
-def Mbox(title, text, style):
-    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
-#Mbox('Your title', 'Your text', 1)
+
 
 #System Variables:
 circle_size=5
